@@ -1,0 +1,9 @@
+torch
+torchvision
+numpy
+pillow
+opencv-python
+faiss-cpu
+tqdm
+python-dotenv
+requests
