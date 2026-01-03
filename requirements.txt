@@ -1,9 +1,25 @@
-torch
-torchvision
+# Core Python utilities
 numpy
-pillow
-opencv-python
-faiss-cpu
 tqdm
 python-dotenv
 requests
+
+# Image processing
+Pillow
+opencv-python
+scikit-image
+imagehash
+
+
+# Machine Learning
+torch
+torchvision
+
+# CLIP (installed via git)
+git+https://github.com/openai/CLIP.git
+
+# Similarity search
+faiss-cpu
+
+# OCR (text / watermark detection)
+easyocr

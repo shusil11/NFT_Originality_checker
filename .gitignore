@@ -4,6 +4,14 @@
 .env
 .env.*
 
+
+Python cache
+__pycache__/
+*.pyc
+
+
+
+
 # ===============================
 # Virtual environment
 # ===============================
@@ -14,14 +22,14 @@ venv/
 # Raw NFT datasets (BIG FILES)
 # ===============================
 data/raw/
-data/other_sources/
+data/processed/
 
 # ===============================
 # Generated embeddings & indexes
 # ===============================
 embeddings/
 vector_db/
-
+models/
 # ===============================
 # Model outputs / weights
 # ===============================
